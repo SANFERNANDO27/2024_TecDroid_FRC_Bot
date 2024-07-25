@@ -1,0 +1,66 @@
+{
+    "version": "v0.1.1",
+    "robotConfiguration": {
+        "mass": 54,
+        "rotationalInertia": 6,
+        "wheelMaxTorque": 15.92,
+        "wheelMaxVelocity": 0.62,
+        "wheelbase": 0.55245,
+        "trackWidth": 0.55245,
+        "bumperLength": 0.82,
+        "bumperWidth": 0.6,
+        "wheelRadius": 0.1016
+    },
+    "paths": {
+        "NewPath": {
+            "waypoints": [
+                {
+                    "x": 9.849797248840332,
+                    "y": 2.807133913040161,
+                    "heading": 0,
+                    "isInitialGuess": false,
+                    "translationConstrained": true,
+                    "headingConstrained": true,
+                    "controlIntervalCount": 442
+                },
+                {
+                    "x": 7.6115193367004395,
+                    "y": 4.4545063972473145,
+                    "heading": 0,
+                    "isInitialGuess": false,
+                    "translationConstrained": true,
+                    "headingConstrained": true,
+                    "controlIntervalCount": 276
+                },
+                {
+                    "x": 9.34842300415039,
+                    "y": 4.418694019317627,
+                    "heading": 0,
+                    "isInitialGuess": false,
+                    "translationConstrained": true,
+                    "headingConstrained": false,
+                    "controlIntervalCount": 40
+                }
+            ],
+            "trajectory": [],
+            "constraints": [
+                {
+                    "scope": [
+                        1
+                    ],
+                    "type": "WptZeroVelocity",
+                    "uuid": "1d9e4147-f8b2-4f6d-a855-c858b98d34e7"
+                },
+                {
+                    "scope": [
+                        "last"
+                    ],
+                    "type": "WptZeroVelocity",
+                    "uuid": "1ecb0afd-b496-42b0-9b7c-dab41317ec10"
+                }
+            ],
+            "usesControlIntervalGuessing": true,
+            "defaultControlIntervalCount": 40
+        }
+    }
+}
