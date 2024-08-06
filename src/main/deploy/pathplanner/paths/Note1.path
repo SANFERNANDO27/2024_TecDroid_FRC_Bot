@@ -1,0 +1,100 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.4394635305561345,
+        "y": 5.483151617932309
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.4394635305561354,
+        "y": 5.483151617932309
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.748083696668647,
+        "y": 6.830793009956947
+      },
+      "prevControl": {
+        "x": 1.5526242581246783,
+        "y": 6.542747521586087
+      },
+      "nextControl": {
+        "x": 1.9840526373164908,
+        "y": 7.178536711952556
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.961989683377863,
+        "y": 7.026252448494873
+      },
+      "prevControl": {
+        "x": 2.3858987066345065,
+        "y": 6.985103093013204
+      },
+      "nextControl": {
+        "x": 3.35807715228388,
+        "y": 7.054544410559589
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.622507500654099,
+        "y": 6.244414694343174
+      },
+      "prevControl": {
+        "x": 3.0937007177189715,
+        "y": 6.702872959595482
+      },
+      "nextControl": {
+        "x": 2.2418759624486673,
+        "y": 5.874070495008159
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.4,
+        "y": 5.48
+      },
+      "prevControl": {
+        "x": 2.4925860498337538,
+        "y": 5.634310083055438
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 1.0,
+    "maxAcceleration": 2.0,
+    "maxAngularVelocity": 35.0,
+    "maxAngularAcceleration": 4.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 180.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "NotesPaths",
+  "previewStartingState": {
+    "rotation": 180.0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}
