@@ -1,0 +1,38 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.4394635305561345,
+      "y": 5.483151617932309
+    },
+    "rotation": -179.10742184679359
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "IntakeAndIndexerCommand"
+                }
+              },
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Note1"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "folder": "Autos",
+  "choreoAuto": false
+}

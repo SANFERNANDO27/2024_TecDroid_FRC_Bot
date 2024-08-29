@@ -1,0 +1,25 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.1925673976661242,
+      "y": 5.524300973413978
+    },
+    "rotation": 178.50499569180255
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "PathPlannerExampleAuto"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "ExampleAutos",
+  "choreoAuto": false
+}
